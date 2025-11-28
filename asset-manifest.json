@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/listable-app/static/css/main.0f7a0d6f.css",
+    "main.js": "/listable-app/static/js/main.9d4b9017.js",
+    "index.html": "/listable-app/index.html",
+    "main.0f7a0d6f.css.map": "/listable-app/static/css/main.0f7a0d6f.css.map",
+    "main.9d4b9017.js.map": "/listable-app/static/js/main.9d4b9017.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f7a0d6f.css",
+    "static/js/main.9d4b9017.js"
+  ]
+}
