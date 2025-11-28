@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Listable App</h1>
 
-<p id="description">Première version d'une application simple de liste de tâches utilisant React.js.</p>
+<p id="description">Listable App (version 1.0), une application de gestion de tâches entièrement développé sous React.js. Ce projet intègre la persistance des données avec le Local Storage et illustre une approche simple, modulaire et évolutive de la gestion de tâches.</p>
 
 <img src="./img/img1.png" alt="img1.png/"> <br>
 <img src="./img/img2.png" alt="img2.png/"> <br>
