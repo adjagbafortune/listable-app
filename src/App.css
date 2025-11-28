@@ -7,37 +7,40 @@
   box-sizing: border-box;
 }
 
+/* ----- GLOBAL ----- */
 body {
   background: #d5d6df;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 2rem;
+  min-height: 100vh;
 }
 
 .App {
   text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-h1 {
+/* ----- TITRES ----- */
+h1, h2 {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
 }
 
-h2 {
-  color: #fff;
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-}
-
+/* ----- WRAPPER ----- */
 .ListableWrapper {
   background: #003057;
-  margin-top: 5rem;
-  padding: 4rem;
-  border-radius: 50px;
+  margin-top: 3rem;
+  padding: 3rem 2rem;
+  border-radius: 30px;
 }
 
+/* ----- FORMULAIRE ----- */
 .ListableForm {
   width: 100%;
   margin-bottom: 1rem;
@@ -50,7 +53,8 @@ h2 {
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   color: #fff;
   border-radius: 5px;
 }
@@ -63,10 +67,12 @@ h2 {
   background: #720f06;
   color: #fff;
   border: none;
-  padding: 0.55rem;
+  padding: 0.55rem 1rem;
   cursor: pointer;
+  border-radius: 5px;
 }
 
+/* ----- LISTES ----- */
 .Listable {
   display: flex;
   justify-content: space-between;
@@ -96,4 +102,56 @@ h2 {
 .edit-icon,
 .delete-icon {
   cursor: pointer;
+}
+
+/* -------------------------------
+   🎯 MEDIA QUERIES (Mobile / Tablet)
+-------------------------------- */
+
+/* TABLETTES */
+@media (max-width: 900px) {
+  .ListableWrapper {
+    padding: 2.5rem 1.5rem;
+    margin-top: 2rem;
+    border-radius: 25px;
+  }
+
+  h1, h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* MOBILES */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .ListableWrapper {
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+  }
+
+  .listable-input {
+    max-width: 100%;
+  }
+
+  .Listable {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+}
+
+/* PETITS MOBILES */
+@media (max-width: 380px) {
+  h1, h2 {
+    font-size: 0.9rem;
+  }
+
+  .ListableWrapper {
+    padding: 1.5rem 0.75rem;
+  }
 }
