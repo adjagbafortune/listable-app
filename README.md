@@ -7,7 +7,7 @@
 
 <h2>Demo</h2>
 
-[https://lohit-todo.vercel.app](https://lohit-todo.vercel.app)
+[https://fortune-listable-app](https://adjagbafortune.github.io/listable-app/)
 
 <h2>Étapes d'installation :</h2>
 
