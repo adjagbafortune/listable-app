@@ -4,6 +4,7 @@
 
 <img src="./img/img1.png" alt="img1.png/"> <br>
 <img src="./img/img2.png" alt="img2.png/"> <br>
+<img src="./img/img3.png" alt="img3.png/"> <br>
 
 <h2>Demo</h2>
 
